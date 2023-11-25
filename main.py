@@ -178,6 +178,8 @@ def write_channel_lists(all_channels):
         all_channels_kodi = all_channels.replace("acestream://", "plugin://script.module.horus?action=play&id=")
         all_channels_get = all_channels.replace("acestream://", "http://127.0.0.1:6878/ace/getstream?id=")
         all_channels_int = all_channels.replace("acestream://", "http://192.168.1.90:8008/ace/getstream?id=")
+        all_channels_ott = all_channels.replace("acestream://", "http://127.0.0.1:6878/ace/manifest.m3u8?id=")
+
 
         with open("base.txt", "w") as f:
             f.write(all_channels)
@@ -198,6 +200,11 @@ def write_channel_lists(all_channels):
             int.write(all_channels_int)
             print("exportChannels : OK : int list exported")
             int.close()
+            
+        with open("ott.txt", "w") as ott:
+            ott.write(all_channels_ott)
+            print("exportChannels : OK : ott list exported")
+            ott.close()
             
     else:
         print("exportChannels : ERROR : list is empty")
