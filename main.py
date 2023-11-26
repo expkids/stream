@@ -201,9 +201,9 @@ def export_elcano_json(elcano_dict):
                                    + '        "key": "",' + '\n'\
                                    + '        "drm_scheme": "clearkey",' + '\n'\
                                    + '        "extension": ""' + '\n'\
-                                   + '      }'
+                                   + '      },'
 
-    elcano_json = elcano_json[:-1] + '\n' + '    ]' + '\n' + '  },'
+    elcano_json = elcano_json[:-1] + '\n' + '    ]' + '\n' + '  }'
     
     return elcano_json
 
