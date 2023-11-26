@@ -185,7 +185,7 @@ def export_elcano_json(elcano_dict):
     elcano_list = u.get_channel_list(elcano_dict)
     elcano_string = ', '.join(map(str, elcano_list))
 
-    elcano_json = '  {' + '\n' + '    "name": "--ACESTREAM--",' + '\n' + '    "samples": ['
+    elcano_json = '  {' + '\n' + '    "name": "--ACESTREAM BY ELCANO--",' + '\n' + '    "samples": ['
 
     for group_title in u.group_title_order:
         if group_title in elcano_string:
@@ -201,7 +201,7 @@ def export_elcano_json(elcano_dict):
                                    + '        "key": "",' + '\n'\
                                    + '        "drm_scheme": "clearkey",' + '\n'\
                                    + '        "extension": ""' + '\n'\
-                                   + '      },'
+                                   + '      }'
 
     elcano_json = elcano_json[:-1] + '\n' + '    ]' + '\n' + '  },'
     
