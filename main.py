@@ -20,10 +20,19 @@ def export_messages():
         cleansed_content = cleanse_general(extras)
 
         elcano = read_cached_elcano()
-        cleansed_content += cleanse_general(elcano)
+        cleansed_elcano = cleanse_general(elcano)
+        cleansed_content += cleansed_elcano
+
+        elcano_dict = update_channel_dict(cleansed_elcano)
+        elcano_json = export_elcano_json(elcano_dict)
+        with open("exo.txt", "w") as exo:
+            exo.write(elcano_json)
+            print("exportMessages : OK : exo  exported")
+            exo.close()
 
         misCanales = importTG('mis_canales')
         cleansed_content += cleanse_misCanales(misCanales)
+    
         channel_dict = update_channel_dict(cleansed_content)
         all_channels += export_channels(channel_dict)
 
@@ -169,6 +178,34 @@ def export_channels(channel_dict):
                 channels += channel
 
     return channels
+
+
+def export_elcano_json(elcano_dict):
+
+    elcano_list = u.get_channel_list(elcano_dict)
+    elcano_string = ', '.join(map(str, elcano_list))
+
+    elcano_json = '  {' + '\n' + '    "name": "--ACESTREAM--",' + '\n' + '    "samples": ['
+
+    for group_title in u.group_title_order:
+        if group_title in elcano_string:
+            elcano_json += '\n' + '      {' + '\n' + '        "name": "-----' + group_title + '-----",' + '\n'\
+                           + '        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=0000000000000000000000000000000000000000",' + '\n'\
+                           + '        "extension": ""' + '\n' + '      },'
+
+            for channel_info in elcano_list:
+                if channel_info["group_title"] == group_title:
+                    elcano_json += '\n' + '      {' + '\n' + '        "name": "          ' + channel_info["channel_name"][:-6] + '",' + '\n'\
+                                   + '        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=' + channel_info["channel_id"] + '"' + ',' + '\n'\
+                                   + '        "kid": "",' + '\n'\
+                                   + '        "key": "",' + '\n'\
+                                   + '        "drm_scheme": "clearkey",' + '\n'\
+                                   + '        "extension": ""' + '\n'\
+                                   + '      },'
+
+    elcano_json = elcano_json[:-1] + '\n' + '    ]' + '\n' + '  },'
+    
+    return elcano_json
 
 
 def write_channel_lists(all_channels):
