@@ -2,6 +2,11 @@
     "name": "--ACESTREAM BY ELCANO--",
     "samples": [
       {
+        "name": "-----UHD-----",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=0000000000000000000000000000000000000000",
+        "extension": ""
+      },
+      {
         "name": "-----DAZN F1-----",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=0000000000000000000000000000000000000000",
         "extension": ""
