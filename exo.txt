@@ -659,8 +659,16 @@
         "extension": ""
       },
       {
-        "name": "          SuperCopa 1080",
+        "name": "          SuperCopa 1080 MultiAudio",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=3a4c8ac955d451bf3c29b45256e74aa0ea82d281",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
+        "name": "          SuperCopa 1080",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=7d70685696722c2b1b48a5ae1a7f92c445d9443d",
         "kid": "",
         "key": "",
         "drm_scheme": "clearkey",
