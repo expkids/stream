@@ -659,6 +659,22 @@
         "extension": ""
       },
       {
+        "name": "          SuperCopa 1080",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=3a4c8ac955d451bf3c29b45256e74aa0ea82d281",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
+        "name": "          SuperCopa 720",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=dab7cab5d6d177df36c3b333ca363c2266d91a03",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
         "name": "          Eurosport 1 1080",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=5e4cd48c79f991fcbee2de8b9d30c4b16de3b952",
         "kid": "",
