@@ -21,14 +21,6 @@
         "extension": ""
       },
       {
-        "name": "          DAZN F1 UHD",
-        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=6b94479c24898700089e6b87d28a3ccc72dc4041",
-        "kid": "",
-        "key": "",
-        "drm_scheme": "clearkey",
-        "extension": ""
-      },
-      {
         "name": "          DAZN F1 1080",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=5789ca155323664edd293b848606688edf803f4d",
         "kid": "",
@@ -60,14 +52,6 @@
       {
         "name": "          DAZN LaLiga 2 720 MultiAudio",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=02b9307c5c97c86914cc5939d6bbeb5b4ec60b47",
-        "kid": "",
-        "key": "",
-        "drm_scheme": "clearkey",
-        "extension": ""
-      },
-      {
-        "name": "          M+ LaLiga UHD",
-        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=dce1579e3a2e5bd29071fca8eae364f1eb3205cf",
         "kid": "",
         "key": "",
         "drm_scheme": "clearkey",
@@ -364,14 +348,6 @@
         "extension": ""
       },
       {
-        "name": "          DAZN Liga F 2",
-        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=d6cdd724a97fcf851e7ef641c28d6beb8663496e",
-        "kid": "",
-        "key": "",
-        "drm_scheme": "clearkey",
-        "extension": ""
-      },
-      {
         "name": "          DAZN 1 1080",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=8ca07071b39185431f8e940ec98d1add9e561639",
         "kid": "",
@@ -414,30 +390,6 @@
       {
         "name": "          DAZN 4 1080",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=2fcdf7a19c0858f686efdfabd3c8c2b92bf6bcfd",
-        "kid": "",
-        "key": "",
-        "drm_scheme": "clearkey",
-        "extension": ""
-      },
-      {
-        "name": "          DAZN Liga F 1",
-        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=600222a4f98df80a2c0df2d60cb5ff3df9620710",
-        "kid": "",
-        "key": "",
-        "drm_scheme": "clearkey",
-        "extension": ""
-      },
-      {
-        "name": "          DAZN Liga F 3",
-        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=162942adc047d0f78eac056effbe5bbec54a5e51",
-        "kid": "",
-        "key": "",
-        "drm_scheme": "clearkey",
-        "extension": ""
-      },
-      {
-        "name": "          DAZN Liga F 4",
-        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=e454681a152a86da504e63694f17f90d0586867d",
         "kid": "",
         "key": "",
         "drm_scheme": "clearkey",
@@ -659,6 +611,14 @@
         "extension": ""
       },
       {
+        "name": "          PPVP 2",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=d6cdd724a97fcf851e7ef641c28d6beb8663496e",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
         "name": "          Copa 1080 MultiAudio",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=3a4c8ac955d451bf3c29b45256e74aa0ea82d281",
         "kid": "",
@@ -757,6 +717,30 @@
       {
         "name": "          Barça 720",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=e3362507e7c732b9461bd7bdc74bd054c49b3ba7",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
+        "name": "          PPVP 1",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=600222a4f98df80a2c0df2d60cb5ff3df9620710",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
+        "name": "          PPVP 3",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=162942adc047d0f78eac056effbe5bbec54a5e51",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
+        "name": "          PPVP 4",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=e454681a152a86da504e63694f17f90d0586867d",
         "kid": "",
         "key": "",
         "drm_scheme": "clearkey",
