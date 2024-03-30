@@ -551,7 +551,7 @@
       },
       {
         "name": "          LaLiga Hypermotion 3",
-        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=b4a076c1f67a5c1f1ba899ac61b9401b1dc30f41",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=424c89c7c0f251051269b578f40d13d192cf2c2d",
         "kid": "",
         "key": "",
         "drm_scheme": "clearkey",
