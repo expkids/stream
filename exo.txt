@@ -785,7 +785,7 @@
       },
       {
         "name": "          La1 UHD",
-        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=6636a5c1055b5913ddcd0e87a5523f7d935350af",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=61a38b6c3b6c3fdffcb2f61053f3437e569eb666",
         "kid": "",
         "key": "",
         "drm_scheme": "clearkey",
