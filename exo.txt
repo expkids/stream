@@ -675,6 +675,14 @@
         "extension": ""
       },
       {
+        "name": "          Eurosport4k",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=c525471499b936decc037ea86e0f8125ebf78c28",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
         "name": "          Eurosport 1 1080",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=5e4cd48c79f991fcbee2de8b9d30c4b16de3b952",
         "kid": "",
