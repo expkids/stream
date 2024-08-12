@@ -803,6 +803,14 @@
         "extension": ""
       },
       {
+        "name": "          • PPVP 4",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=5c05217f1813045f2af2fe4ec77eb27b7f7deb6e",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
         "name": "          Sport TV 1 1080",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=ce235921dac95e1da2dd5e54673c2fecb9e806de",
         "kid": "",
