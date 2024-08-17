@@ -58,6 +58,14 @@
         "extension": ""
       },
       {
+        "name": "          M+ LaLiga UHD",
+        "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=dce1579e3a2e5bd29071fca8eae364f1eb3205cf",
+        "kid": "",
+        "key": "",
+        "drm_scheme": "clearkey",
+        "extension": ""
+      },
+      {
         "name": "          La Liga BAR 1080",
         "uri": "http://127.0.0.1:6878/ace/manifest.m3u8?id=aa82e7d4f03061f2144a2f4be22f2e2210d42280",
         "kid": "",
